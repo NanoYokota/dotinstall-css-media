@@ -24,3 +24,18 @@ nav {
 footer {
   background: lightgray;
 }
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+
+  nav {
+    width: 160px;
+    order: -1;
+  }
+
+  main {
+    flex: 1;
+  }
+}
