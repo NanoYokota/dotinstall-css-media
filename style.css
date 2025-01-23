@@ -9,3 +9,9 @@ body {
     background: skyblue;
   }
 }
+
+@media (min-width: 800px) {
+  body {
+    background: orange;
+  }
+}
