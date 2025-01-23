@@ -1,18 +1,26 @@
 @charset "UTF-8";
 
 body {
+  margin: 0;
+}
+
+header, main, nav, footer {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+header {
   background: pink;
 }
 
-/* width <= 800px */
-@media (max-width: 800px) {
-  body {
-    background: skyblue;
-  }
+main {
+  background: skyblue;
 }
 
-@media (max-width: 600px) {
-  body {
-    background: orange;
-  }
+nav {
+  background: orange;
+}
+
+footer {
+  background: lightgray;
 }
