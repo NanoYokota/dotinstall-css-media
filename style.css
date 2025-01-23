@@ -23,6 +23,7 @@ nav {
 
 aside {
   background: tomato;
+  display: none;
 }
 
 footer {
@@ -44,6 +45,7 @@ footer {
   }
 
   aside {
-    display: none;
+    display: block;
+    width: 160px;
   }
 }
